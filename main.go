@@ -25,5 +25,5 @@ func main() {
 	}
 
 	// Start and run the server
-	router.Run(":3000")
+	router.Run(":3001")
 }
