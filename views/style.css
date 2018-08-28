@@ -790,7 +790,7 @@ footer .tagcloud .tag8 {
     transition: all 0.3s;
     -webkit-transform: translateZ();
     image-rendering: -webkit-optimize-contrast;
-    height: 30px;
+    height: 100px;
     width: inherit;
 }
 .navbar-collapse {
