@@ -1,3 +1,21 @@
+// require('./jquery.min.js');
+// require('./bootstrap.min.js');
+require('./twitter-bootstrap-hover-dropdown.min.js');
+// require('./jquery.themepunch.plugins.min.js');
+// require('./jquery.themepunch.revolution.min.js');
+// require('./jquery.themepunch.tools.min.js');
+require('./retina.js');
+require('./owl.carousel.min.js');
+require('./jquery.isotope.min.js');
+require('./jquery.fancybox.pack.js');
+require('./fancybox/helpers/jquery.fancybox-thumbs.js?v=1.0.2');
+require('./fancybox/helpers/jquery.fancybox-media.js?v=1.0.0');
+require('./jquery.fitvids.js');
+require('./jquery.easytabs.min.js');
+require('./jquery.slickforms.js');
+require('./google-code-prettify/prettify.js');
+require('./scripts.js');
+
 /*-----------------------------------------------------------------------------------*/
 /*	PRELOADER
 /*-----------------------------------------------------------------------------------*/
