@@ -1,6 +1,6 @@
-// require('./jquery.min.js');
-// require('./bootstrap.min.js');
-require('./twitter-bootstrap-hover-dropdown.min.js');
+// // require('./jquery.min.js');
+// // require('./bootstrap.min.js');
+// require('./twitter-bootstrap-hover-dropdown.min.js');
 // require('./jquery.themepunch.plugins.min.js');
 // require('./jquery.themepunch.revolution.min.js');
 // require('./jquery.themepunch.tools.min.js');
@@ -14,7 +14,7 @@ require('./jquery.fitvids.js');
 require('./jquery.easytabs.min.js');
 require('./jquery.slickforms.js');
 require('./google-code-prettify/prettify.js');
-require('./scripts.js');
+// require('./scripts.js');
 
 /*-----------------------------------------------------------------------------------*/
 /*	PRELOADER

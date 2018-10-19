@@ -7,8 +7,8 @@ router.get('/', function(req, res, next) {
 });
 
 /* GET Brothers Page */
-router.get('/brothers', function(req, res, next) {
-  res.render('brothers', { title: 'Brothers | Omega Beta — Theta Tau' });
+router.get('/active', function(req, res, next) {
+  res.render('active', { title: 'Brothers | Omega Beta — Theta Tau' });
 });
 
 /* GET Actives Page. 
@@ -18,13 +18,13 @@ router.get('/active', function(req, res, next) {
 
 /* GET Alumni Page. */
 router.get('/alumni', function(req, res, next) {
-  res.render('brothers', { title: 'Home | Omega Beta — Theta Tau' });
+  res.render('alumni', { title: 'Home | Omega Beta — Theta Tau' });
 });
 
-/* GET Blog Page. */
-router.get('/blog', function(req, res, next) {
-  res.render('blog', { title: 'Blog | Omega Beta — Theta Tau' });
-});
+// /* GET Blog Page. */
+// router.get('/blog', function(req, res, next) {
+//   res.render('blog', { title: 'Blog | Omega Beta — Theta Tau' });
+// });
 
 /* GET Events Page. */
 router.get('/events', function(req, res, next) {
