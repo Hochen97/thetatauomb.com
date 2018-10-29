@@ -1,5 +1,5 @@
 # thetatauomb.com
-## The Official Website for the Omega Beta Chapter of Theta Tau
+### The Official Website for the Omega Beta Chapter of Theta Tau
 
 1. Installation Instructions
     1. Install Node.js & NPM from `https://nodejs.org/en/`.
