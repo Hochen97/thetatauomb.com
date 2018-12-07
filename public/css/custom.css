@@ -1,0 +1,12 @@
+.active-profile{
+    border-radius: 50%; 
+    height: 150px; 
+    width: 150px;
+}
+
+.active-name{
+    text-align: center;
+    /* margin-left: 21px; */
+    /* margin-right: 21px; */
+    /* width: 150px; */
+}
