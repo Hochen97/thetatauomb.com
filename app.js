@@ -24,6 +24,8 @@ app.locals.CDN = function(path, type, classes, alt) {
   } 
 };
 
+app.locals.gCDN = CDN;
+
 /*
 
 // CSS
