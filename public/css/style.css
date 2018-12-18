@@ -1747,7 +1747,7 @@ figure a:hover .text-overlay::after {
 .tp-bannertimer {
     width: 100%;
     height: 10px;
-    background: url(style/images/timer.png);
+    background: url(/images/timer.png);
     position: absolute;
     z-index: 200;
 }
