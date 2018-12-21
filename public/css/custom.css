@@ -77,4 +77,9 @@
             margin-top: 100px !important;
             text-align: right;
         }
+
+        .member-profile{
+            padding-left: 0;
+            padding-right: 0;
+        }
 }
