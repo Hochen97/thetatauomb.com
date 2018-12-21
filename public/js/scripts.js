@@ -76,6 +76,8 @@ $(document).ready(function () {
     });
 
 });
+
+// .btn.responsive-menu
 $('.btn.responsive-menu').on('click', function() {
     $(this).toggleClass('opn');
 });
