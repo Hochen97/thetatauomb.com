@@ -74,8 +74,12 @@
 @media only screen and (max-width: 991px){
         .nav{
             /* transition: 0.3s; */
-            margin-top: 100px !important;
+            margin-top: -5px !important;
             text-align: right;
+        }
+
+        nav.navbar-collapse{
+            margin-top: 100px!important;
         }
 
         .member-profile{
