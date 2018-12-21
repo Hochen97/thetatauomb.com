@@ -9,6 +9,36 @@ var usersRouter = require('./routes/users');
 
 var app = express();
 
+// CDN Magic
+var CDN = "https://jrhtec.sfo2.cdn.digitaloceanspaces.com/thetatauomb/public/";
+
+app.locals.CDN = function(path, type, classes, alt) {
+  if(type == 'js') {
+     return "<script src='"+CDN+path+"' type='text/javascript'></script>"; 
+  } else if (type == 'css') { 
+     return "<link rel='stylesheet' type='text/css' href='"+CDN+path+"'/>"; 
+  } else if (type == 'img') { 
+     return "<img class='"+classes+"' src='"+CDN+path+"' alt='"+alt+"' />"; 
+  } else { 
+     return ""; 
+  } 
+};
+
+app.locals.gCDN = CDN;
+
+/*
+
+// CSS
+<%- CDN('/stylesheets/main.min.css', 'css', '', ''); %>
+
+// image
+<%- CDN('/images/dummy-image.png', 'img', 'img-responsive', 'my picture'); %>
+
+// JavaScript
+<%- CDN('/javascript/load.js', 'js', '', ''); %>
+
+*/
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
