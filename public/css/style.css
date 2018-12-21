@@ -3670,7 +3670,7 @@ textarea {
 	    top: inherit;
 	    float: none;
 	    width: auto;
-	    display: block !important;
+	    /* display: block !important; */
 	    background: none;
 	}
 	.navbar .dropdown-menu li {
