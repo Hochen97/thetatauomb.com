@@ -3,12 +3,14 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "dev": "npm run dev-build && npm start",
+    "dev-build": "webpack --mode development",
     "start": "node ./bin/www",
-    "build": "webpack --config webpack.config.js"
+    "build": "webpack --mode production"
   },
   "dependencies": {
     "@okta/oidc-middleware": "^0.1.3",
-    "@okta/okta-sdk-nodejs": "^1.1.0",
+    "@okta/okta-sdk-nodejs": "^1.2.0",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
     "ejs": "~2.5.7",

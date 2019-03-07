@@ -10,7 +10,7 @@ var usersRouter = require('./routes/users');
 var app = express();
 
 // CDN Magic
-var CDN = "https://jrhtec.sfo2.cdn.digitaloceanspaces.com/thetatauomb/public/";
+var CDN = "https://storage.googleapis.com/otomb";
 
 app.locals.CDN = function(path, type, classes, alt) {
   if(type == 'js') {
