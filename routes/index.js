@@ -40,5 +40,8 @@ router.get('/about', function(req, res, next) {
 router.get('/contact', function(req, res, next) {
   res.render('contact', { title: 'Contact Us | Omega Beta — Theta Tau' });
 });
+router.get('/elements', function(req, res, next) {
+  res.render('elements', { title: 'Contact Us | Omega Beta — Theta Tau' });
+});
 
 module.exports = router;
