@@ -40,6 +40,14 @@
   <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
   <link href="./public/type/fontello.css" rel="stylesheet">
   <link href="./public/type/budicons.css" rel="stylesheet">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script>
+  $(function(){
+    $("#navbar").load("./partials/navbar.html"); 
+  });
+  </script>
+  
 </head>
 
 <body class="full-layout">
@@ -47,32 +55,7 @@
 <div class="body-wrapper">
   
   <!-- include navbar -->
-  <!--/.navbar-->
-  <div class="navbar basic default">
-    <div class="navbar-header">
-      <div class="container">
-        <div class="basic-wrapper"> <a id="responsiveNavBtn" class="btn responsive-menu pull-right" data-toggle="collapse" data-target=".navbar-collapse"><i></i></a> <a class="navbar-brand" href="/"><img src="./public/images/Theta-Tau-Logo.png" alt="" data-src="./public/images/Theta-Tau-Logo.png" data-ret="./public/images/Theta-Tau-Logo@2x.png" class="retina"/></a> </div>
-        <nav class="navbar-collapse collapse pull-right">
-          <ul class="nav navbar-nav ">
-            <li><a href="/">Home</a></li>
-            <!-- <li><a href="/alumni">Alumni</a></li> -->
-            <li class="dropdown"><a href="#"  class="disabled dropdown-toggle js-activated">Brothers</a>
-              <ul class="dropdown-menu">
-                <li><a href="/active">Active</a></li>
-                <!-- <li><a href="/alumni">Alumni</a></li> -->
-              </ul>
-            </li>
-            <li><a href="events">Events</a></li>
-            <!-- <li><a href="/blog">Blog</a></li> -->
-            <li><a href="about">About</a></li>
-            <li><a href="contact">Contact</a></li>
-          </ul>
-        </nav>
-        <!--/.nav-collapse -->
-      </div>
-    </div>
-  </div>
-  <!--/.navbar -->
+  <div id="navbar"></div>
 
   <div class="offset"></div>
   <div class="light-wrapper">
