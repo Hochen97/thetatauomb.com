@@ -11,19 +11,19 @@
     <title>Theta Tau Hofstra - About</title>
 
     <!-- Bootstrap core CSS -->
-    <!-- <%- CDN('/css/bootstrap.css', 'css', '', ''); %>
-    <%- CDN('/css/settings.css', 'css', '', ''); %>
-    <%- CDN('/css/owl.carousel.css', 'css', '', ''); %>
-    <%- CDN('/css/custom.css', 'css', '', ''); %>
-    <%- CDN('/css/style.css', 'css', '', ''); %>
-    <%- CDN('/css/maroon.css', 'css', '', ''); %> -->
-    <!-- <%- CDN('/type/fontello.css', 'css', '', ''); %> -->
-    <!-- <%- CDN('/type/budicons.css', 'css', '', ''); %> -->
-    <!-- <%- CDN('/js/google-code-prettify/prettify.css', 'css', '', ''); %>
-    <%- CDN('/js/fancybox/jquery.fancybox.css', 'css', '', ''); %>
-    <%- CDN('/js/fancybox/helpers/jquery.fancybox-thumbs.css?v=1.0.2', 'css', '', ''); %> -->
-    <!-- <%- CDN('https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy:400,400italic', 'css', '', ''); %>
-    <%- CDN('https://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic', 'css', '', ''); %> -->
+    <!-- <%- CDN('/css/bootstrap.css', 'css', '', ''); 
+    <%- CDN('/css/settings.css', 'css', '', ''); 
+    <%- CDN('/css/owl.carousel.css', 'css', '', ''); 
+    <%- CDN('/css/custom.css', 'css', '', ''); 
+    <%- CDN('/css/style.css', 'css', '', ''); 
+    <%- CDN('/css/maroon.css', 'css', '', '');  -->
+    <!-- <%- CDN('/type/fontello.css', 'css', '', '');  -->
+    <!-- <%- CDN('/type/budicons.css', 'css', '', '');  -->
+    <!-- <%- CDN('/js/google-code-prettify/prettify.css', 'css', '', ''); 
+    <%- CDN('/js/fancybox/jquery.fancybox.css', 'css', '', ''); 
+    <%- CDN('/js/fancybox/helpers/jquery.fancybox-thumbs.css?v=1.0.2', 'css', '', '');  -->
+    <!-- <%- CDN('https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy:400,400italic', 'css', '', ''); 
+    <%- CDN('https://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic', 'css', '', '');  -->
 
 
     <link href="./public/css/bootstrap.css" rel="stylesheet">
@@ -57,7 +57,7 @@
 <div id="preloader"><div id="status"><div class="spinner"></div></div></div>
 <div class="body-wrapper">
   
-  <div class="navbar"></div>
+  <div id="navbar"></div>
 
   <div class="offset"></div>
   
@@ -70,8 +70,8 @@
 
         <div class="col-sm-4">
           <figure>
-              <%= CDN('/images/OTFall2018.jpg', 'img', '', ''); %>
-            <!-- <img src="/images/OTFall2018.jpg" alt="" /> -->
+              <!-- <%= CDN('/images/OTFall2018.jpg', 'img', '', '');  -->
+            <img src="/images/OTFall2018.jpg" alt="" />
           </figure>
         </div>
 
@@ -92,8 +92,8 @@
           <div class="divide20"></div>
           <div class="services-2">
               <div class="icon"> 
-                <!-- <%= CDN('/images/icons/icon-web.png', 'img', 'retina', ''); %> -->
-                <img src=<%= gCDN+"/images/icons/icon-web.png"%> data-src=<%= gCDN+"/images/icons/icon-web.png"%> data-ret=<%= gCDN+"/images/icons/icon-web@2x.png"%> class="retina" alt="" /> 
+                <!-- <%= CDN('/images/icons/icon-web.png', 'img', 'retina', '');  -->
+                <img src="/images/icons/icon-web.png" data-src="/images/icons/icon-web.png" data-ret="/images/icons/icon-web@2x.png" class="retina" alt="" /> 
               </div>
               <!-- /.icon -->
                 <div class="text">
@@ -108,8 +108,8 @@
             <div class="divide20"></div>
             <div class="services-2">
             <div class="icon"> 
-              <img src=<%= gCDN+"/images/icons/icon-print.png"%> data-src=<%= gCDN+"/images/icons/icon-print.png"%> data-ret=<%= gCDN+"/images/icons/icon-print@2x.png"%> class="retina" alt="" /> 
-              <!-- <%= CDN('/images/icons/icon-print.png', 'img', 'retina', ''); %> -->
+              <img src="/images/icons/icon-print.png" data-src="/images/icons/icon-print.png" data-ret="/images/icons/icon-print@2x.png" class="retina" alt="" /> 
+              <!-- <%= CDN('/images/icons/icon-print.png', 'img', 'retina', '');  -->
             </div>
             <!-- /.icon -->
               <div class="text">
@@ -125,8 +125,8 @@
           <div class="divide20"></div>
             <div class="services-2">
               <div class="icon"> 
-                <img src=<%= gCDN+"/images/icons/icon-cloud.png"%> data-src=<%= gCDN+"/images/icons/icon-cloud.png"%> data-ret=<%= gCDN+"/images/icons/icon-cloud@2x.png"%> class="retina" alt="" />
-                <!-- <%= CDN('/images/icons/icon-cloud.png', 'img', 'retina', ''); %> -->
+                <img src="/images/icons/icon-cloud.png" data-src="/images/icons/icon-cloud.png" data-ret="/images/icons/icon-cloud@2x.png" class="retina" alt="" />
+                <!-- <%= CDN('/images/icons/icon-cloud.png', 'img', 'retina', '');  -->
               </div>
               <!-- /.icon -->
                 <div class="text">
@@ -145,8 +145,8 @@
           <div class="divide10"></div>
           <div class="services-2">
               <div class="icon"> 
-                  <!-- <%= CDN('/images/icons/icon-worldmap.png', 'img', 'retina', ''); %> -->
-                <img src=<%= gCDN+"/images/icons/icon-worldmap.png"%> data-src=<%= gCDN+"/images/icons/icon-worldmap.png"%> data-ret=<%= gCDN+"/images/icons/icon-worldmap@2x.png"%> class="retina" alt="" /> 
+                  <!-- <%= CDN('/images/icons/icon-worldmap.png', 'img', 'retina', '');  -->
+                <img src="/images/icons/icon-worldmap.png" data-src="/images/icons/icon-worldmap.png" data-ret="/images/icons/icon-worldmap@2x.png" class="retina" alt="" /> 
               </div>
                 <!-- /.icon -->
                 <div class="text">
@@ -161,8 +161,8 @@
             <div class="divide10"></div>
             <div class="services-2">
                 <div class="icon"> 
-                    <!-- <%= CDN('/images/icons/icon-browser.png', 'img', 'retina', ''); %> -->
-                  <img src=<%= gCDN + "/images/icons/icon-browser.png" %> data-src=<%= gCDN+"/images/icons/icon-browser.png" %> data-ret=<%= gCDN+"/images/icons/icon-browser@2x.png"%> class="retina" alt="" /> 
+                    <!-- <%= CDN('/images/icons/icon-browser.png', 'img', 'retina', '');  -->
+                  <img src="/images/icons/icon-browser.png"  data-src="/images/icons/icon-browser.png"  data-ret="/images/icons/icon-browser@2x.png" class="retina" alt="" /> 
                 </div>
                 <!-- /.icon -->
                 <div class="text">
@@ -177,8 +177,8 @@
           <div class="divide10"></div>
             <div class="services-2">
                 <div class="icon"> 
-                    <!-- <%= CDN('/images/icons/icon-heart.png', 'img', 'retina', ''); %> -->
-                  <img src=<%= gCDN+"/images/icons/icon-heart.png" %> data-src=<%= gCDN+"/images/icons/icon-heart.png" %> data-ret=<%= gCDN+"/images/icons/icon-heart@2x.png" %> class="retina" alt="" /> 
+                    <!-- <%= CDN('/images/icons/icon-heart.png', 'img', 'retina', '');  -->
+                  <img src="/images/icons/icon-heart.png"  data-src="/images/icons/icon-heart.png"  data-ret="/images/icons/icon-heart@2x.png"  class="retina" alt="" /> 
                 </div>
                 <!-- /.icon -->
                 <div class="text">
@@ -349,7 +349,7 @@
 </div>
 <!-- /.body-wrapper --> 
 
-<!-- <% include ../partials/scripts %> -->
+<!-- <% include ../partials/scripts  -->
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
 <script src="./public/js/twitter-bootstrap-hover-dropdown.min.js"></script>
 <script src="./public/js/jquery.themepunch.plugins.min.js"></script> 
