@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- include head -->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta property="og:image" content="./public/images/Tilted Gear Red_Yellow.png">
+  <link rel="shortcut icon" href="./public/images/Tilted Gear Red_Yellow.png">
+  <title><%= title %></title>
+
+  <!-- Bootstrap core CSS -->
+  <!-- <%- CDN('/css/bootstrap.css', 'css', '', ''); %>
+  <%- CDN('/css/settings.css', 'css', '', ''); %>
+  <%- CDN('/css/owl.carousel.css', 'css', '', ''); %>
+  <%- CDN('/css/custom.css', 'css', '', ''); %>
+  <%- CDN('/css/style.css', 'css', '', ''); %>
+  <%- CDN('/css/maroon.css', 'css', '', ''); %> -->
+  <!-- <%- CDN('/type/fontello.css', 'css', '', ''); %> -->
+  <!-- <%- CDN('/type/budicons.css', 'css', '', ''); %> -->
+  <!-- <%- CDN('/js/google-code-prettify/prettify.css', 'css', '', ''); %>
+  <%- CDN('/js/fancybox/jquery.fancybox.css', 'css', '', ''); %>
+  <%- CDN('/js/fancybox/helpers/jquery.fancybox-thumbs.css?v=1.0.2', 'css', '', ''); %> -->
+  <!-- <%- CDN('https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy:400,400italic', 'css', '', ''); %>
+  <%- CDN('https://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic', 'css', '', ''); %> -->
+
+
+  <link href="./public/css/bootstrap.css" rel="stylesheet">
+  <link href="./public/css/settings.css" rel="stylesheet">
+  <link href="./public/css/owl.carousel.css" rel="stylesheet">
+  <link href="./public/js/google-code-prettify/prettify.css" rel="stylesheet">
+  <link href="./public/js/fancybox/jquery.fancybox.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="./public/js/fancybox/helpers/jquery.fancybox-thumbs.css?v=1.0.2" rel="stylesheet" type="text/css" />
+  <link href="./public/css/custom.css" rel="stylesheet">
+  <link href="./public/css/style.css" rel="stylesheet">
+  <link href="./public/css/maroon.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy:400,400italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+  <link href="./public/type/fontello.css" rel="stylesheet">
+  <link href="./public/type/budicons.css" rel="stylesheet">
+</head>
+
+<body class="full-layout">
+<div id="preloader"><div id="status"><div class="spinner"></div></div></div>
+<div class="body-wrapper">
+  
+  <!-- include navbar -->
+  <!--/.navbar-->
+  <div class="navbar basic default">
+    <div class="navbar-header">
+      <div class="container">
+        <div class="basic-wrapper"> <a id="responsiveNavBtn" class="btn responsive-menu pull-right" data-toggle="collapse" data-target=".navbar-collapse"><i></i></a> <a class="navbar-brand" href="/"><img src="./public/images/Theta-Tau-Logo.png" alt="" data-src="./public/images/Theta-Tau-Logo.png" data-ret="./public/images/Theta-Tau-Logo@2x.png" class="retina"/></a> </div>
+        <nav class="navbar-collapse collapse pull-right">
+          <ul class="nav navbar-nav ">
+            <li><a href="/">Home</a></li>
+            <!-- <li><a href="/alumni">Alumni</a></li> -->
+            <li class="dropdown"><a href="#"  class="disabled dropdown-toggle js-activated">Brothers</a>
+              <ul class="dropdown-menu">
+                <li><a href="/active">Active</a></li>
+                <!-- <li><a href="/alumni">Alumni</a></li> -->
+              </ul>
+            </li>
+            <li><a href="events">Events</a></li>
+            <!-- <li><a href="/blog">Blog</a></li> -->
+            <li><a href="about">About</a></li>
+            <li><a href="contact">Contact</a></li>
+          </ul>
+        </nav>
+        <!--/.nav-collapse -->
+      </div>
+    </div>
+  </div>
+  <!--/.navbar -->
+
+  <div class="offset"></div>
+  <div class="light-wrapper">
+    <div class="tp-banner-container revolution" >
+      <div class="tp-banner">
+        <ul>
+          <li data-transition="fade"> <img src="./public/images/art/slider-bg1.jpg" alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat" />
+            <div class="tp-caption title sfb" data-x="center" data-y="255" data-speed="900" data-start="500" data-endspeed="100" data-easing="Sine.easeOut">The Omega Beta Chapter of Theta Tau</div>
+            <div class="tp-caption lead tp-fade fadeout tp-resizeme" data-x="center" data-y="329" data-speed="100"
+			data-start="1000"
+			data-easing="Power4.easeOut"
+			data-splitin="chars"
+			data-splitout="chars"
+			data-elementdelay="0.03"
+			data-endelementdelay="0"
+			data-endspeed="100"
+			data-endeasing="Power1.easeOut"
+      style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;">"Whatsoever thy hand findeth to do, do it with thy might;..."</div>
+      <div class="tp-caption lead tp-fade fadeout tp-resizeme" data-x="center" data-y="379" data-speed="100"
+			data-start="2500"
+			data-easing="Power4.easeOut"
+			data-splitin="chars"
+			data-splitout="chars"
+			data-elementdelay="0.03"
+			data-endelementdelay="0"
+			data-endspeed="100"
+			data-endeasing="Power1.easeOut"
+			style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;">-Ecclasiastes 9:10</div>
+            <!--<div class="tp-caption sfb" data-x="center" data-y="392" data-speed="900" data-start="2500" data-easing="Sine.easeOut"  data-endspeed="100"><a href="#contact" class="btn btn-white">Start a Project</a></div>-->
+          </li>
+          <li data-transition="fade"> <img src="./public/images/art/slider-bg2.jpg" alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat" />
+            <div class="tp-caption title small sfb dark-layer" data-x="680" data-y="415" data-speed="900" data-start="800" data-easing="Sine.easeOut">Come join our brotherhood...</div>
+            <div class="tp-caption lead sfb light-layer" data-x="680" data-y="480" data-speed="900" data-start="1500" data-easing="Sine.easeOut">We're the largest, and foremost fraternity for engineers!</div>
+          </li>
+          <li data-transition="fade"> <img src="./public/images/art/slider-bg3.jpg" alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat" />
+            <div class="tp-caption title sfb" data-x="center" data-y="255" data-speed="900" data-start="500" data-endspeed="100" data-easing="Sine.easeOut">Our foundation is based on our three pillars:</div>
+            <div class="tp-caption lead tp-fade fadeout tp-resizeme" data-x="center" data-y="329" data-speed="100"
+			data-start="1500"
+			data-easing="Power4.easeOut"
+			data-splitin="chars"
+			data-splitout="chars"
+			data-elementdelay="0.02"
+			data-endelementdelay="0"
+			data-endspeed="100"
+			data-endeasing="Power1.easeOut"
+			style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;">Brotherhood, Service, and Profession.</div>
+            <div class="tp-caption sfb" data-x="center" data-y="392" data-speed="900" data-start="3000" data-endspeed="100" data-easing="Sine.easeOut"><a href="#contact" class="btn btn-white">Contact Us</a></div>
+          </li>
+          <!-- <li data-transition="fade"> <img src="./public/images/art/slider-bg4.jpg" alt="" />
+            <div class="tp-caption lft boxshadow" data-x="30" data-y="150" data-speed="900" data-start="1000" data-easing="easeOutExpo">
+              <iframe src="https://www.youtube.com/watch?v=dQw4w9WgXcQ" width="712" height="400" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+            </div>
+            <div class="tp-caption basic large light-layer sft" data-x="800" data-y="205" data-speed="900" data-start="1500" data-easing="Sine.easeOut">Video Support</div>
+            <div class="tp-caption basic dark-layer sfr" data-x="800" data-y="283" data-speed="900" data-start="2000" data-easing="Sine.easeOut">YouTube</div>
+            <div class="tp-caption basic dark-layer sfr" data-x="800" data-y="323" data-speed="900" data-start="2500" data-easing="Sine.easeOut">Video</div>
+            <div class="tp-caption basic dark-layer sfr" data-x="800" data-y="363" data-speed="900" data-start="3000" data-easing="Sine.easeOut">HTML5</div>
+            <div class="tp-caption basic dark-layer sfr" data-x="800" data-y="403" data-speed="900" data-start="3500" data-easing="Sine.easeOut">Full-width</div>
+            <div class="tp-caption basic dark-layer sfr" data-x="800" data-y="443" data-speed="900" data-start="4000" data-easing="Sine.easeOut">Any Size</div>
+          </li> -->
+        </ul>
+        <div class="tp-bannertimer tp-bottom"></div>
+      </div>
+      <!-- /.tp-banner --> 
+    </div>
+    <!-- /.tp-banner-container --> 
+  </div>
+  <div class="light-wrapper">
+    <div class="container inner">
+        <div class="row">
+          <div class="col-sm-12">
+              <h3 class="text-center">What is theta tau?</h3>
+              <p class="what-is-ot-body">
+                  Theta Tau is the oldest, largest, and foremost Fraternity for Engineers. Since its founding at the University of Minnesota in 1904, over 40,000 have been initiated over the years. With emphasis on quality and a strong fraternal bond, the Fraternity has chapters only at ABET accredited schools and limits the number of student members in any one of its chapters across the nation.
+                </p>
+          </div>
+        </div>
+        <div class="row" style="padding-top: 25px;">
+          <div class="col-sm-4">
+              <h3 class="section-title text-center">OUR PURPOSE</h3>
+              <p class="what-is-ot-body">The purpose of Theta Tau is to develop and maintain a high standard of professional interest among its members, and to unite them in strong bond of fraternal fellowship.</p>          
+          </div>
+          <div class="col-sm-4">
+            <h3 class="section-title text-center">OUR MISSION</h3>
+            <p class="what-is-ot-body">Our mission is to develop ENGINEERING LEADERS for Service, Profession, and Brotherhood.</p>
+          </div>
+          <div class="col-sm-4">
+              <h3 class="section-title text-center">THE OMEGA BETA CHAPTER</h3>
+              <p class="what-is-ot-body">Our chapter currently has around 45 active members. The fellowship, academic support, and personal growth our Brothers find in Theta Tau make all the difference in their personal and professional success.</p>
+              </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /.light-wrapper -->
+  
+  
+  <div class="black-wrapper">
+    <div class="container inner">
+      <div class="row">
+        <div class="col-md-3 col-sm-12">
+          <h3 class="section-title">Community Engagement</h3> <!--Want to put comp sci/engineering fair, shake-a-rake, fall fest build, christmas mural 2nd place, event with AEPhi, Black Engineers Panel.-->
+          <div class="lead bm25">Some events our chapter has been involved in!</div>
+          <p>We believe in being active both on and off campus! Being a part of the community is both an honor and a privilege to our chapter. Check out some of the events we've either hosted, co-hosted, or participated in!</p>
+          <div class="divide20"></div>
+          <!--<a href="#" class="btn">View All Work</a>--> </div>
+        <div class="col-md-9 col-sm-12">
+          <ul class="photoset">
+            <li>
+              <figure>
+                <a href="#">
+                  <div class="text-overlay">
+                    <div class="info">Engineering/Computer Science Career Fair</div>
+                  </div>
+                  <!-- <img src="./public/images/ENGG-CS-Fair.jpg" alt="" />  -->
+                  <img src="./public/images/ENGG-CS-Fair.jpg" style="width:100%;height:100%;" alt="/images/ENGG-CS-Fair.jpg" />
+                </a>
+              </figure>
+            </li>
+            <li>
+              <figure><a href="#">
+                <div class="text-overlay">
+                  <div class="info">Shake-A-Rake</div>
+                </div>
+                <img src="./public/images/Shake-A-Rake.jpg" alt="" /> 
+                <!-- <%- CDN('/images/Shake-A-Rake.jpg','img','','/images/Shake-A-Rake.jpg'); %> -->
+              </a></figure>
+            </li>
+            <li>
+              <figure><a href="#">
+                <div class="text-overlay">
+                  <div class="info">Breakfast Run</div>
+                </div>
+                <img src="./public/images/Breakfast-Run.jpg" alt="" /> 
+                <!-- <%- CDN('/images/Breakfast-Run.jpg','img','','/images/Breakfast-Run.jpg'); %> -->
+              </a></figure>
+            </li>
+            <li>
+              <figure><a href="#">
+                <div class="text-overlay">
+                  <div class="info">Hofstra Celebrates the Holidays</div>
+                </div>
+                <img src="./public/images/Hofstra-Celebrates-The-Holidays.jpg" alt="" />
+                <!-- <%- CDN('/images/Hofstra-Celebrates-The-Holidays.jpg','img','','/images/Hofstra-Celebrates-The-Holidays.jpg'); %> -->
+              </a></figure>
+            </li>
+            <li>
+              <figure><a href="#">
+                <div class="text-overlay">
+                  <div class="info">Sexual Assault Panel</div>
+                </div>
+                <img src="./public/images/Sexual-Assault-Panel.jpg" alt="" /> 
+                <!-- <%- CDN('/images/Sexual-Assault-Panel.jpg','img','','/images/Sexual-Assault-Panel.jpg'); %> -->
+              </a></figure>
+            </li>
+            <li>
+              <figure><a href="#">
+                <div class="text-overlay">
+                  <div class="info">Black Engineers Panel</div>
+                </div>
+                <img src="./public/images/Black-Engineers-Panel.jpg" alt="" /> 
+                <!-- <%- CDN('/images/Black-Engineers-Panel.jpg','img','','/images/Black-Engineers-Panel.jpg'); %> -->
+              </a></figure>
+            </li>
+          </ul>
+          <!-- /.photoset --> 
+        </div>
+        <!-- /.col --> 
+      </div>
+      <!-- /.row --> 
+    </div>
+    <!-- /.container --> 
+  </div>
+  <!-- /.black-wrapper -->
+
+  <!-- E-board -->
+  <div class="dark-wrapper">
+    <div class="container inner">
+      <div class="row">
+        <div class="col-md-3 col-sm-12">
+          <h3 class="section-title">Our Executive Board</h3>
+          <div class="lead bm25">Meet the team that runs our chapter!</div>
+          <p>From left to right, we have our Regent, Vice Regent, Treasurer, Scribe, Corresponding Secretary, and New Member Educator.</p>
+           </div>
+        <!-- /.col -->
+        <div class="col-md-9 col-sm-12">
+          <div class="owl-posts team">
+            <div class="item post">
+              <figure><img src="./public/images/portraits/Joanne Peragine Cropped.jpg" alt="" /></figure>
+              <div class="post-content">
+                <h3 class="post-title">Joanne Peragine</h3>
+                <div class="biz-title">Regent</div>
+                <p>The regent oversees all activities and meetings and represents the fraternity at Greek life events. </p>
+                <ul class="social">
+                  <li><a href="#"><i class="icon-s-facebook"></i></a></li>
+                  <li><a href="#"><i class="icon-s-twitter"></i></a></li>
+                  <li><a href="#"><i class="icon-s-dribbble"></i></a></li>
+                  <li><a href="#"><i class="icon-s-pinterest"></i></a></li>
+                </ul>
+              </div>
+              <!-- /.post-content --> 
+            </div>
+            <!-- /.item -->
+            <div class="item post">
+              <figure><img src="./public/images/portraits/Nikos Stathopoulos2 cropped.jpg" alt="" /></figure>
+              <div class="post-content">
+                <h3 class="post-title">Nikos Stathopoulos</h3>
+                <div class="biz-title">Vice Regent</div>
+                <p>The vice regent assists the president and helps coordinate activities and assist brothers.</p>
+                <ul class="social">
+                  <li><a href="#"><i class="icon-s-facebook"></i></a></li>
+                  <li><a href="#"><i class="icon-s-twitter"></i></a></li>
+                  <li><a href="#"><i class="icon-s-dribbble"></i></a></li>
+                  <li><a href="#"><i class="icon-s-pinterest"></i></a></li>
+                </ul>
+              </div>
+              <!-- /.post-content --> 
+            </div>
+            <!-- /.item -->
+            <div class="item post">
+              <figure><img style="margin: 0 0 -33% 0;"src="./public/images/portraits/Renato Rodrigues.jpeg" alt="" /></figure>
+              <div class="post-content">
+                <h3 class="post-title">Renato Rodrigues</h3>
+                <div class="biz-title">Treasurer</div>
+                <p>The treasurer collects member dues, keeps financial records and oversees spending budgets.</p>
+                <ul class="social">
+                  <li><a href="#"><i class="icon-s-facebook"></i></a></li>
+                  <li><a href="#"><i class="icon-s-twitter"></i></a></li>
+                  <li><a href="#"><i class="icon-s-dribbble"></i></a></li>
+                  <li><a href="#"><i class="icon-s-pinterest"></i></a></li>
+                </ul>
+              </div>
+              <!-- /.post-content --> 
+            </div>
+            <!-- /.item -->
+            <div class="item post">
+              <figure><img src="./public/images/portraits/Mirla Sales.jpg" alt="" /></figure>
+              <div class="post-content">
+                <h3 class="post-title">Mirla Sales</h3>
+                <div class="biz-title">Scribe</div>
+                <p>The scribe is responsible for keeping chapter records, including minutes of meetings and records of all members.</p>
+                <ul class="social">
+                  <li><a href="#"><i class="icon-s-facebook"></i></a></li>
+                  <li><a href="#"><i class="icon-s-twitter"></i></a></li>
+                  <li><a href="#"><i class="icon-s-dribbble"></i></a></li>
+                  <li><a href="#"><i class="icon-s-pinterest"></i></a></li>
+                </ul>
+              </div>
+              <!-- /.post-content --> 
+            </div>
+            <!-- /.item -->
+            <div class="item post">
+              <figure><img src="./public/images/art/team5.jpg" alt="" /></figure>
+              <div class="post-content">
+                <h3 class="post-title">Yulisa Frias</h3>
+                <div class="biz-title">Corresponding Secretary</div>
+                <p>The Corresponding Secretary will stay in contact with other chapters and will oversee all alumni relations.</p>
+                <ul class="social">
+                  <li><a href="#"><i class="icon-s-facebook"></i></a></li>
+                  <li><a href="#"><i class="icon-s-twitter"></i></a></li>
+                  <li><a href="#"><i class="icon-s-dribbble"></i></a></li>
+                  <li><a href="#"><i class="icon-s-pinterest"></i></a></li>
+                </ul>
+              </div>
+              <!-- /.post-content --> 
+            </div>
+            <!-- /.item --> 
+            <div class="item post">
+                <figure><img src="./public/images/portraits/Stephan Duroseau Photoshopped.jpg" alt="" /></figure>
+                <div class="post-content">
+                  <h3 class="post-title">Stephan Duroseau</h3>
+                  <div class="biz-title">New Member Educator</div>
+                  <p>The New Member Educator will supply the necessary induction and education to candidates that are fit.</p>
+                  <ul class="social">
+                    <li><a href="#"><i class="icon-s-facebook"></i></a></li>
+                    <li><a href="#"><i class="icon-s-twitter"></i></a></li>
+                    <li><a href="#"><i class="icon-s-dribbble"></i></a></li>
+                    <li><a href="#"><i class="icon-s-pinterest"></i></a></li>
+                  </ul>
+                </div>
+                <!-- /.post-content --> 
+              </div>
+              <!-- /.item --> 
+          </div>
+          <!-- /.team --> 
+        </div>
+        <!-- /.col --> 
+      </div>
+      <!-- /.row --> 
+      
+    </div>
+    <!-- /.container --> 
+  </div>
+  <!-- /.dark-wrapper -->
+  <!-- E-board -->
+
+  <!-- footer -->
+<footer class="black-wrapper">
+  <div class="container inner">
+    <div class="row">
+      <div class="col-sm-3">
+        <div class="widget"> <img src="./public/images/Theta-Tau-Logo.png" alt="" data-src="./public/images/Theta-Tau-Logo.png" data-ret="./public/images/Theta-Tau-Logo.png" class="retina" />
+          <div class="divide20"></div>
+          <p>Theta Tau: Omega Beta Chapter</p>
+        </div>
+        <!-- /.widget -->
+        
+        <div class="widget">
+          <h4 class="widget-title">Newsletter</h4>
+          <div class="newsletter-wrapper">
+            <div id="mc_embed_signup">
+              <form action="" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Enter email" required>
+                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;">
+                  <input type="text" name="b_ddc180777a163e0f9f66ee014_056957de28" value="">
+                </div>
+                <div class="clear">
+                  <input type="submit" value="Join" name="subscribe" id="mc-embedded-subscribe" class="button">
+                </div>
+              </form>
+            </div>
+          </div>
+          <!-- /.newsletter-wrapper --> 
+        </div>
+        <!-- /.widget --> 
+      </div>
+      <!-- /col -->
+      
+      <div class="col-sm-3">
+        <div class="widget">
+          <h4 class="widget-title">Get In Touch</h4>
+          <p>Feel free to get in contact with us via our chapter email. We'll make sure to get back to you ASAP!</p>
+          <div class="divide10"></div>
+          <div class="contact-info"> <i class="icon-location"></i> Weed Hall, Hofstra University <br />
+            <!--<i class="icon-phone"></i>+00 (123) 456 78 90 <br />
+            <i class="icon-mobile"></i>+00 (555) 345 67 89 <br />-->
+            <i class="icon-mail"></i> thetatauomb@gmail.com </div>
+        </div>
+      </div>
+      <!-- /col -->
+      
+      <div class="col-sm-3">
+        <div class="widget">
+          <h4 class="widget-title">Tags</h4>
+          <div class="tagcloud"> <a href="#" style="font-size: 9pt;">engineer</a> <a href="#" style="font-size: 19pt;">computer science</a> <a href="#" style="font-size: 9pt;">computer engineering</a> <a href="#" style="font-size: 9pt;">electrical engineering</a> <a href="#" style="font-size: 10pt;">industrial engineering</a> <a href="#" style="font-size: 9pt;">biomedical engineering</a> <a href="#" style="font-size: 12pt;">civil engineering</a> <a href="#" style="font-size: 9pt;">STEM</a> <a href="#" style="font-size: 20pt;">mechanical engineering</a> <a href="#" style="font-size: 13pt;">Cyber Security</a> <a href="#" style="font-size: 16pt;">Theta Tau</a> <a href="#" style="font-size: 9pt;">Omega Beta Chapter</a> <a href="#" style="font-size: 15pt;">Fraternity</a> <a href="#" style="font-size: 9pt;">Brotherhood</a> </div>
+        </div>
+        <!-- /.widget -->
+        
+      </div>
+      <!-- /col --> 
+    </div>
+    <!-- /.row --> 
+  </div>
+  <!-- .container -->
+  
+  <div class="subfooter">
+    <div class="container">
+      <p class="pull-left">© 2018 Theta Tau – Omega Beta Chapter. All rights reserved.</p>
+      <ul class="social pull-right">
+        <li><a href="https://www.facebook.com/thetatauhofstra/"><i class="icon-s-facebook"></i></a></li>
+        <li><a href="https://www.instagram.com/thetatau_hofstra/"><i class="icon-s-instagram"></i></a></li>
+        <!--<li><a href="#"><i class="icon-s-rss"></i></a></li>
+        <li><a href="#"><i class="icon-s-twitter"></i></a></li>
+        <li><a href="#"><i class="icon-s-dribbble"></i></a></li>
+        <li><a href="#"><i class="icon-s-pinterest"></i></a></li>
+        <li><a href="#"><i class="icon-s-instagram"></i></a></li>
+        <li><a href="#"><i class="icon-s-vimeo"></i></a></li>-->
+      </ul>
+    </div>
+  </div>
+</footer>
+<!-- /footer --> 
+  
+</div>
+<!-- /.body-wrapper --> 
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+<script src="./public/js/twitter-bootstrap-hover-dropdown.min.js"></script>
+<script src="./public/js/jquery.themepunch.plugins.min.js"></script> 
+<script src="./public/js/jquery.themepunch.revolution.min.js"></script> 
+<script src="./public/js/jquery.themepunch.tools.min.js"></script> 
+<script src="./public/dist/bundle.js"></script>
+</body>
+</html>
