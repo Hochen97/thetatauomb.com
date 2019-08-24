@@ -2061,7 +2061,7 @@ footer .social li {
 /*	15. PARALAX
 /*-----------------------------------------------------------------------------------*/
 .parallax {
-    background: url(/images/art/parallax1.jpg) fixed no-repeat center center;
+    background: url(./public/images/art/parallax1.jpg) fixed no-repeat center center;
     -webkit-background-size: cover;
     background-size: cover;
     position: relative;
@@ -2084,13 +2084,13 @@ footer .social li {
     background-attachment: scroll !important
 }
 .parallax.parallax1 {
-    background-image: url(/images/art/parallax1.jpg)
+    background-image: url(./public/images/art/parallax1.jpg)
 }
 .parallax.parallax2 {
-    background-image: url(/images/art/parallax2.jpg)
+    background-image: url(./public/images/art/parallax2.jpg)
 }
 .parallax.parallax3 {
-    background-image: url(/images/art/parallax3.jpg)
+    background-image: url(./public/images/art/parallax3.jpg)
 }
 .parallax a {
     color: #FFF
