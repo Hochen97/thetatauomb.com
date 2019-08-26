@@ -48,7 +48,7 @@
 <div class="body-wrapper">
   
   <!-- include navbar -->
-  <div id="nav" class="navbar basic default"></div>
+  <div id="navbar" class="navbar basic default"></div>
 
   <div class="offset"></div>
   <div class="light-wrapper">
@@ -355,7 +355,7 @@
 
 <script>
     $(function(){
-      $("#nav").load("./partials/navbar.html"); 
+      $("#navbar").load("./partials/navbar.html"); 
     });
   
     // $(function(){
@@ -372,7 +372,7 @@
 	window.onscroll = function() {myFunction()};
 
 	// Get the navbar
-	var navbar = document.getElementById("nav");
+	var navbar = document.getElementById("navbar");
 
 	// Get the offset position of the navbar
 	var sticky = 100;
@@ -381,10 +381,8 @@
 	function myFunction() {
 	  if (window.pageYOffset >= sticky) {
 	    navbar.classList.add("fixed")
-	    navbar.classList.remove("default")
 	  } else {
 	    navbar.classList.remove("fixed")
-	    navbar.classlist.add("default")
 	  }
 	}
 
@@ -395,7 +393,7 @@
 <script src="./public/js/twitter-bootstrap-hover-dropdown.min.js"></script>
 <script src="./public/js/jquery.themepunch.plugins.min.js"></script> 
 <script src="./public/js/jquery.themepunch.revolution.min.js"></script> 
-<script src="./public/js/jquery.themepunch.tools.min.js"></script> 
+<script src=bar"./public/js/jquery.themepunch.tools.min.js"></script> 
 <script src="./public/dist/bundle.js"></script>
 
 </body>
