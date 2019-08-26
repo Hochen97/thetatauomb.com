@@ -1,18 +1,20 @@
+// HTML Import Script
 <script>
-    $(function(){
-      $("#navbar").load("./partials/navbar.html"); 
-    });
-  
-    // $(function(){
-    //   $("#eboard").load("./partials/eboard.html"); 
-    // });
-  
-    $(function(){
-      $("#footer").load("./partials/footer.html"); 
-    });
-  </script>
+	$(function(){
+	$("#navbar").load("./partials/navbar.html"); 
+	});
+
+	// $(function(){
+	//   $("#eboard").load("./partials/eboard.html"); 
+	// });
+
+	$(function(){
+	$("#footer").load("./partials/footer.html"); 
+	});
+</script>
 	
-	<script>
+// Navbar animate on scroll script
+<script>
 	// When the user scrolls the page, execute myFunction 
 	window.onscroll = function() {myFunction()};
 	// Get the navbar
@@ -27,4 +29,4 @@
 	    navbar.classList.remove("fixed")
 	  }
 	}
-	</script>
+</script>
