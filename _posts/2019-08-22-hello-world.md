@@ -1,6 +1,6 @@
 ---
 title: Hello World!
-layout: default
+layout: otomb_layout_default
 permalink: /blog/
 ---
 
