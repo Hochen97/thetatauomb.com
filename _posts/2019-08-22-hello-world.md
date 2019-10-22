@@ -1,6 +1,6 @@
 ---
 title: Hello World!
-layout: default2
+layout: default
 permalink: /blog/
 ---
 
