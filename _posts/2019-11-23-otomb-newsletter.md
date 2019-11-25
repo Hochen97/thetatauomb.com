@@ -1,7 +1,8 @@
 ---
 title: Fall 2019 Newsletter
 layout: default2
-permalink: /blog/otomb-newsletter-fall-2019-test
+# permalink: /blog/otomb-newsletter-fall-2019-test
+permalink: /blog/fall-2019-newsletter
 ---
 # Fall 2019 Newsletter!
 The Omega Beta chapter at Hofstra University has been growing
