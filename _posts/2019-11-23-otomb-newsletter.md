@@ -4,6 +4,17 @@ layout: default2
 # permalink: /blog/otomb-newsletter-fall-2019-test
 permalink: /blog/fall-2019-newsletter
 ---
+<figure style="
+    box-shadow: 1px 1px 5px 0px black;
+    border-radius: 3px;
+">
+    <img src="../public/images/OT At the Vineyards.jpg" style="
+    width: 100%;
+    margin-top: -30%;
+    margin-bottom: -15%;
+">
+</figure>
+
 # Fall 2019 Newsletter!
 The Omega Beta chapter at Hofstra University has been growing
 immensely in their leadership, professionalism, and standing on campus.
