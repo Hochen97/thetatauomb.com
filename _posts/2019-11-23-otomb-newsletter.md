@@ -20,12 +20,12 @@ events that have been held and that are upcoming, this chapter
 continues to flourish in their connections and fellowship.
 
 ## Inside This Issue
-- **PG. 2**  
+**PG. 2**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An overview of the New Member
 Education process, and a brief introduction
 to the potential new members.
 
-- **PG. 3**  
+**PG. 3**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A look at the connections the Omega Beta
 chapter has made, along with insight of
 this year’s regional conference.
