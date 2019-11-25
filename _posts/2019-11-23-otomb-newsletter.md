@@ -4,6 +4,12 @@ layout: default2
 # permalink: /blog/otomb-newsletter-fall-2019-test
 permalink: /blog/fall-2019-newsletter
 ---
+
+<style>
+    #fall-2019-newsletter{
+        padding-top: 50px;
+    }
+</style>
 <figure style="
     box-shadow: 1px 1px 5px 0px black;
     border-radius: 3px;
