@@ -1,7 +1,7 @@
 ---
 title: Hello World!
 layout: default2
-permalink: /blog/
+permalink: /blog/hello-world
 ---
 
 # Welcome to the Official Theta Tau Hofstra Blog!
