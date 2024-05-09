@@ -1371,7 +1371,7 @@ figure a:hover .text-overlay::after {
 .timeline-block {
     position: relative;
     margin: 20px 0;
-    *zoom: 1;
+    zoom: 1; /* zoom */
 }
 .timeline-block:before,
 .timeline-block:after {
@@ -1412,7 +1412,7 @@ figure a:hover .text-overlay::after {
     -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.11);
     -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.11);
     box-shadow: 0 1px 0 rgba(0, 0, 0, 0.11);
-    *zoom: 1;
+    zoom: 1; /* *zoom: */
 }
 .timeline-content h4 {
     margin-bottom: 3px
@@ -2940,7 +2940,7 @@ textarea {
 }
 .fix-portfolio .items {
     margin: 0;
-    *zoom: 1;
+    zoom: 1; /* *zoom: */
     padding: 0;
 }
 .fix-portfolio .items:before,
@@ -3159,7 +3159,7 @@ textarea {
     padding: 0;
     display: inline-block;
     zoom: 1;
-    *display: inline;
+    display: inline; /* *display */
     margin-right: 3px;
 }
 .tabs-top .tab a {
